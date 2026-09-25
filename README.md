@@ -31,12 +31,18 @@ Exploratory data analysis, cleaning, feature engineering, and feature selection 
 
 ## Status
 
-EDA, cleaning, feature engineering, and feature selection are complete. Model training/evaluation is not yet implemented — planned as a next step.
+EDA, cleaning, feature engineering, feature selection, and model training (KNN) are complete. A Streamlit web application (`app.py`) has been built for interactive predictions!
 
 ## Getting started
 
 ```bash
-pip install numpy pandas seaborn matplotlib scikit-learn scipy
+# Install the required dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit web application
+streamlit run app.py
+
+# Or explore the notebook
 jupyter notebook heart.ipynb
 ```
 

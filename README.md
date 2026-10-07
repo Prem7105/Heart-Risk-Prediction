@@ -67,3 +67,18 @@ streamlit run app.py
 ```
 
 > Note: The notebook also uses an optional helper package, `sheryanalysis`, for a quick automated EDA summary. It isn't required to run the main Streamlit app.
+
+---
+
+## Application architecture
+
+The Streamlit interface collects model inputs, applies the saved preprocessing scaler, and passes the transformed features to the saved KNN classifier. The app presents the model output in the browser; it is an educational demo, not a medical service.
+
+```mermaid
+flowchart LR
+  U[User input] --> A[Streamlit app]
+  A --> P[Input validation and scaling]
+  P --> M[Saved KNN model]
+  M --> R[Prediction result]
+  D[Dataset and notebook] -. training context .-> M
+```

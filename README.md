@@ -1,5 +1,10 @@
 # Heart Risk Prediction Web Application
 
+[**🚀 Live Demo**](https://heart-risk-prediction-prem.streamlit.app/) · [**GitHub Repository**](https://github.com/Prem7105/Heart-Risk-Prediction)
+
+> An educational machine-learning application for heart-disease risk prediction. It is not a medical diagnosis tool.
+
+
 An end-to-end Machine Learning project to predict the risk of heart disease based on patient data. This project includes Exploratory Data Analysis (EDA), data cleaning, feature engineering, model selection, and a fully interactive **Streamlit web application** for making real-time predictions.
 
 ## Dataset
